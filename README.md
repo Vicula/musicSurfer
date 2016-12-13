@@ -14,7 +14,7 @@ The playlist of the future. I'm going to be getting your spotify playlists and o
 ****
 ****
 
-
+<!--
 ##Getting started
 
 ###Install mongodb (once)
@@ -30,12 +30,12 @@ The playlist of the future. I'm going to be getting your spotify playlists and o
   - this chrome extension allows you to test POST requests to your api endpoints much more easily and quickly than you could by writing JavaScript.
   - you can set headers, write JSON into the request body, and use tabs to track multiple requests at once.
 
-###Install MongoChef (once, optional)
+###Install MongoChef (once, optional) -->
 
-  - http://3t.io/mongochef/download/core/
+  <!-- - http://3t.io/mongochef/download/core/
   - This application allows you to inspect and modify your Mongo databases allowing you to quickly read/add/edit/delete documents(records)
   - Once installed:
-    1. Go to `Connect` --> `New Connection`
+    1. Go to `Connect`  `New Connection`
     2. Enter name of database (e.g. *My Localhost DB*)
     3. Enter the values for Server|Port:
        **Server**: `localhost` | **Port**: `27017`
@@ -78,4 +78,4 @@ The easiest thing to do is deploy to heroku. Once you have an account and you've
   - `heroku addons:create mongolab` (this prompts heroku to create an instance of mongodb for your app and run it before starting your server.)
   - `git push heroku master`
 
-Have fun!
+Have fun! -->
