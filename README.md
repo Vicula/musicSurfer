@@ -1,4 +1,16 @@
-#TIY Full Stack
+#Playlist Surfer
+
+The playlist of the future. I'm going to be getting your spotify playlists and other info and porting them to a custom web app that will enhance your listening experience with visuals programmable functions and GAMES!!
+
+  - Spotify API
+  - Node Server
+
+##Things-To-Do
+
+  - **GET SPOTIFY** I need to get spotify hooked up pronto
+
+
+
 
 ##Getting started
 
@@ -8,11 +20,11 @@
   - `sudo mkdir -p /data/db`
   - `sudo chown -R $(whoami) /data/`
 
-  
+
 ###Install Postman (once)
 
   - https://www.getpostman.com/
-  - this chrome extension allows you to test POST requests to your api endpoints much more easily and quickly than you could by writing JavaScript. 
+  - this chrome extension allows you to test POST requests to your api endpoints much more easily and quickly than you could by writing JavaScript.
   - you can set headers, write JSON into the request body, and use tabs to track multiple requests at once.
 
 ###Install MongoChef (once, optional)
@@ -22,9 +34,9 @@
   - Once installed:
     1. Go to `Connect` --> `New Connection`
     2. Enter name of database (e.g. *My Localhost DB*)
-    3. Enter the values for Server|Port: 
+    3. Enter the values for Server|Port:
        **Server**: `localhost` | **Port**: `27017`
-    4. Click `Save Connection` 
+    4. Click `Save Connection`
       (you should see the db available on the left panel)
     5. Click `Connect` on the bottom right to connect and inspect
 
@@ -34,7 +46,7 @@
   - disconnect from my remote repo and point to your own (see [Publishing](#publishing))
   - `cd` into the local folder
   - `npm run init-dev`
-  
+
 
 ##Workflow
 
@@ -45,7 +57,7 @@
   - `npm run go`
     - as described in [tiy-starter-kit](https://github.com/magentanova/tiy-starter-kit), this will both run your local server and set up file watchers that will auto-transpile changes to files in `./src` into files in `./dist`
     - additional actions taken here in tiy-full-stack include connecting your server to the database, which is why you have to start up the database before starting up the server
-  
+
 
 ##Publishing
 
@@ -55,10 +67,10 @@
   - add, commit and push per usual
 
 
-##Deploying 
+##Deploying
 
-The easiest thing to do is deploy to heroku. Once you have an account and you've installed the heroku command line tools, simply run: 
- 
+The easiest thing to do is deploy to heroku. Once you have an account and you've installed the heroku command line tools, simply run:
+
   - `heroku create YOUR-APP-NAME`
   - `heroku addons:create mongolab` (this prompts heroku to create an instance of mongodb for your app and run it before starting your server.)
   - `git push heroku master`
