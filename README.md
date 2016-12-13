@@ -8,12 +8,11 @@ The playlist of the future. I'm going to be getting your spotify playlists and o
 ##Things-To-Do
 
   - **GET SPOTIFY** I need to get spotify hooked up pronto
-  - 1
-  - 2
-  - 4
-  - 3
 
 
+****
+****
+****
 
 
 ##Getting started
