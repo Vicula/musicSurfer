@@ -4,6 +4,10 @@ The playlist of the future. I'm going to be getting your spotify playlists and o
 
   - Spotify API
   - Node Server
+  - express
+  - mongodb
+  
+
 
 ##Things-To-Do
 
