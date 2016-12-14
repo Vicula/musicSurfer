@@ -25,15 +25,6 @@ const AppView = React.createClass({
          case "home":
             return <HomeView highscoreData={this.state.highscore}/>
             break;
-         case "login":
-            return <ModalView crntView="login"/>
-            break;
-         case "signup":
-            return <ModalView crntView="signup" avatarData ={this.state.avatars}/>
-            break;
-         case "game":
-            return <GameView crntUser={this.state.currentUser}/>
-            break;
          default:
 
             break;
