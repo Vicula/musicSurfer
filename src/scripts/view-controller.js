@@ -23,7 +23,7 @@ const AppView = React.createClass({
 
       switch (this.props.currentView) {
          case "home":
-            return <HomeView highscoreData={this.state.highscore}/>
+            return <HomeView/>
             break;
          default:
 
