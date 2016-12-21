@@ -1,3 +1,5 @@
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
 * {
 	// font-family: Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
@@ -26,10 +28,10 @@ body{
 
 .glitch{
   color:#26A65B;
-  font-size:40px;
+  font-size:35px;
   position:relative;
 	top: 20px;
-	left: 85px;
+	left: 110px;
   width:100%;
 	// padding-left: 0;
   margin:0 auto;
